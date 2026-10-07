@@ -104,7 +104,7 @@ export default function Hero() {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 2, duration: 1 }}
-        className="absolute bottom-8 right-5 hidden flex-col items-center gap-3 sm:right-8 md:flex"
+        className="absolute inset-x-0 bottom-8 mx-auto hidden w-fit flex-col items-center gap-3 md:flex"
         aria-hidden
       >
         <span className="text-[10px] uppercase tracking-[0.4em] text-cream/60 [writing-mode:vertical-rl]">
